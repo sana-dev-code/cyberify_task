@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #212121;
+  color: #ececec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Keep typed text visible (Tailwind forms can override colors) */
+.composer-input {
+  color: #ececec !important;
+  -webkit-text-fill-color: #ececec;
+  background-color: #40414f !important;
+}
+
+.composer-input::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}

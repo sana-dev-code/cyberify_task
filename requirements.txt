@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+tortoise-orm[asyncpg]
+aerich
+pydantic-settings
+python-jose[cryptography]
+python-multipart
+langchain
+langchain-community
+langchain-text-splitters
+huggingface_hub
+fastembed
+pypdf
+asyncpg
+email-validator
+bcrypt
+tzdata

@@ -1,0 +1,65 @@
+# Secrets & local config
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Uploads & temp (if you add local file storage later)
+uploads/
+tmp/
+temp/
+*.tmp
+
+# Model / cache downloads (embeddings, HF, etc.)
+.cache/
+models/
+*.onnx
+*.bin
+
+# Database dumps (keep migrations/ in repo)
+*.sql
+*.dump
